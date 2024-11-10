@@ -1,5 +1,5 @@
 
-import * as Pages from '../page'
+import * as Pages from '@/page';
 import { Route, BrowserRouter, Routes } from 'react-router-dom'
 
 function Routers() {
