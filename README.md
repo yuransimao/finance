@@ -14,7 +14,7 @@ finance/
 └── package.json      # General settings and scripts
 ```
 
-###Pré-requisitos
+###Prerequisites
 
 -Node.js v18.20.4
 
