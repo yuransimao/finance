@@ -1,6 +1,6 @@
 #FINANCE Project
 
-This repository contains the **HOME_RENT** project, a system developed using **TurboRepo** to manage the monorepo, with frontend in **React** (TypeScript) and backend in **NestJS**.
+This repository contains the **Finance** project, a system developed using **TurboRepo** to manage the monorepo, with frontend in **React** (TypeScript) and backend in **NestJS**.
 
 ## Project Structure
 
