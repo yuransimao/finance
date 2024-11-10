@@ -17,6 +17,8 @@ finance/
 ###Pré-requisitos
 
 -Node.js v18.20.4
+
 -Yarn ou npm
+
 -Globally installed TurboRepo (optional)
 
