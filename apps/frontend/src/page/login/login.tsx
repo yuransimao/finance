@@ -1,7 +1,7 @@
 import React from 'react'
 import Logo from  '@/assets/logo.png'
 import Bgogin from '@/assets/background-login.png'
-import { Form } from './components'
+import { FormLogin } from './components'
 function Login() {
 
   return (
@@ -19,7 +19,7 @@ function Login() {
 
             </div>
           
-         <Form/>
+         <FormLogin/>
 
         </div>
 

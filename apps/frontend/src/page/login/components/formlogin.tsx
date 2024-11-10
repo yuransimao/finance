@@ -2,7 +2,7 @@ import React from 'react'
 import {Input, Button} from "@/components"
 import { LogIn } from 'lucide-react'
 
-function Form() {
+function FormLogin() {
   return (
     <React.Fragment>
         <form  className='space-y-4'>
@@ -17,4 +17,4 @@ function Form() {
   )
 }
 
-export {Form}
+export {FormLogin}
