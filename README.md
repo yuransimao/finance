@@ -20,5 +20,3 @@ finance/
 
 -Yarn ou npm
 
--Globally installed TurboRepo (optional)
-
