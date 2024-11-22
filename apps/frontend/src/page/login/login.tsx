@@ -6,7 +6,7 @@ function Login() {
 
   return (
     <React.Fragment>
-      <div className='h-svh grid grid-cols-2 w-full '>
+      <div className='h-svh grid lg:grid-cols-2 w-full md:grid-cols-2 grid-cols-1'>
         <div className='flex flex-col justify-center p-8 max-w-[550px] space-y-8 mx-auto'>
          
             <div className='logo flex items-center gap-3'>
@@ -23,7 +23,7 @@ function Login() {
 
         </div>
 
-        <div className=' relative w-full h-full bg-white overflow-hidden'>
+        <div className=' relative w-full h-full bg-white overflow-hidden lg:block md:block hidden'>
 
           <img src={Bgogin} alt="bg"  className='h-full w-full object-cover'/>
 
