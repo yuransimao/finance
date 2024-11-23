@@ -50,7 +50,7 @@ function Transactions() {
         <h1 className='text-2xl font-bold'>Transações</h1>
 
         <Button className='rounded-full'>
-          <h4>Adicionar transação</h4>
+          <h4 className='font-bold'>Adicionar transação</h4>
           <ArrowDownUpIcon/>
         </Button>
       </div>
