@@ -2,19 +2,41 @@
 import { Transitions } from "@finace/core";
 import { ColumnDef } from "@tanstack/react-table"
 
+import {ColumnstransictionsType} from './columnstransictionsType'
 
 
-export const columns: ColumnDef<Transitions>[] = [
+
+export const Transitionscolumns: ColumnDef<Transitions>[] = [
   {
-    accessorKey: "status",
-    header: "Status",
+    accessorKey: "name",
+    header: "Nome",
   },
   {
-    accessorKey: "email",
-    header: "Email",
+    accessorKey: "type",
+    header: "Tipo",
+    cell: ({row:{original: transactions}}) => <ColumnstransictionsType  transactions={transactions}/>
+   
+  
+    
+  },
+  {
+    accessorKey: "category",
+    header: "Categoria",
+  },
+  {
+    accessorKey: "paymentMethod",
+    header: "Metodo de pagamento",
+  },
+  {
+    accessorKey: "date",
+    header: "Data",
   },
   {
     accessorKey: "amount",
-    header: "Amount",
+    header: "Valor",
+  },
+  {
+    accessorKey: "actions",
+    header: " ",
   },
 ]
